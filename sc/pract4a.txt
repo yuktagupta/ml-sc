@@ -1,0 +1,5 @@
+https://itexamanswers.net/10-6-7-lab-using-wireshark-to-examine-http-and-https-traffic-answers.html
+vulnerable site:
+http://www.altoromutual.com:8080/login.jsp
+non vulnerable site:
+https://demo.testfire.net/login.jsp

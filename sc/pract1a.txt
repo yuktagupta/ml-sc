@@ -1,0 +1,13 @@
+mkdir first
+cd first
+echo "this is my first practicle1" > sample1.txt
+echo "this is my first practicle2" > sample1.txt
+echo "this is my first practicle3" > sample1.txt
+zip -e file1.zip sample* pass:g
+zip -e file2.zip sample* pass:w1
+unzip file1.zip
+fcrackzip --help
+fcrackzip  -vul 1-2 file1.zip
+fcrackzip  -vul 1-2 file2.zip
+
+https://itexamanswers.net/9-1-1-7-lab-encrypting-and-decrypting-data-using-a-hacker-tool-instructor-version.html

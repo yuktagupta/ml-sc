@@ -1,0 +1,14 @@
+openssl sha256 letter_to_grandma.txt
+openssl sha512 letter_to_grandma.txt
+nano letter_to_grandma.txt //change the letter to chek the hash
+cat letter_to_grandma.txt
+openssl sha256 letter_to_grandma.txt
+openssl sha256 letter_to_grandma.txt
+Referance
+https://itexamanswers.net/21-1-6-lab-hashing-things-out-answers.html
+
+Hi Grandma,
+I am writing this letter to thank you for the chocolate chip cookies you sent me. I got them this morning and I have already eaten half of the box! They are absolutely delicious!
+
+I wish you all the best. Love,
+Your cookie-eater grandchild.

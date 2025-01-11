@@ -1,0 +1,26 @@
+echo "hello world" >text1.txt
+Encryption:
+openssl aes-256-cbc -a -in text1.txt -out text2.txt
+cat text2.txt
+Decryption:
+openssl aes-256-cbc -a -d -in text2.txt -out text3.txt
+cat text3.txt
+   or
+openssl aes-256-cbc -a -d -in text2.txt
+cat text2.txt
+
+openssl aes-256-cbc -a -in letter_to_grandma.txt -out msg.enc
+openssl aes-256-cbc -a -d -in msg.enc -out text4.txt
+
+https://www.studocu.com/en-au/document/holmesglen-institute-of-tafe/cyber-security/9116-lab-encrypting-and-decrypting-data-using-open-ssl/55246450
+
+++++++++++++++++++++++++++++++++++++++++++++++
+to create the below letter_to_grandma.txt file use below command
++++++++++++++++++++++++++++++++++++++++++++++++
+nano letter_to_grandma.txt 
+
+Hi Grandma,
+I am writing this letter to thank you for the chocolate chip cookies you sent me. I got them this morning and I have already eaten half of the box! They are absolutely delicious!
+
+I wish you all the best. Love,
+Your cookie-eater grandchild.
